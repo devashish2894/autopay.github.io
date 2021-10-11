@@ -37,8 +37,8 @@ nav li img {width: 70%;display:block;margin:0 auto;margin-top: 15%;}
 #hero-image figure img{width: 20%;float: left;height: 527px;}
 @keyframes hero-image{
     
-        0% {left:0};
-        20%{left:0};
+        0% {left:0}
+        20%{left:0}
         25%{left:-100%}
         45%{left:-100%}
         50%{left:-200%}
