@@ -27,10 +27,9 @@ header{width:1366px}
 svg{height: 23px;}
 nav{width:1368px;margin:0 auto;background-color:#0272ab;height:90px;border-radius:25px 25px 0 0;margin-top:50px;position: relative;}
 nav ul{position: absolute;top:-47px; margin-left: 100px;}
-nav li {background-color: white;height: 80px; width: 80px; border-radius:50%;border:3px solid rgb(90, 156, 211);float:left;margin-right:50px;color: white;box-shadow: 5px -2px 10px  rgb(143, 142, 142);}
-footer{width:1366px;background-color: #0272ab; height:116px;color: white;float: left;margin-top: 362px;border-radius: 0 0 25px 25px;}
-.full-footer h1 {font-size:30px;}
-nav li p {position:absolute; top:80px;width: 7%;text-align: center;}
+nav li {background-color: white;height: 80px; width: 80px; border-radius:50%;border:3px solid rgb(90, 156, 211);float:left;margin-right:50px;color: white;box-shadow: 5px -2px 10px  rgb(143, 142, 142);cursor: pointer;}
+
+nav li p {position:absolute; top:80px;width: 7%;text-align: center;cursor: pointer;}
 nav li img {width: 70%;display:block;margin:0 auto;margin-top: 15%;}
 #hero-image{overflow: hidden;}
 #hero-image figure{position:relative;width: 500%;margin: 0;left:0;animation: 20s hero-image infinite;}
@@ -55,7 +54,7 @@ nav li img {width: 70%;display:block;margin:0 auto;margin-top: 15%;}
 .mbody{width: 1366px;height: 690px;float: left;}
 .panel{margin-left: 361px;margin-right: -1px;}
 
-.panel li{width: 181px;height:280px;background: rgb(65, 179, 199,0.9);border-radius: 10px;float: left;margin-right: 20px;margin-top:30px;padding:3px;box-sizing: border-box;}
+.panel li{width: 181px;height:280px;background: rgb(65, 179, 199,0.9);border-radius: 10px;float: left;margin-right: 20px;margin-top:30px;padding:3px;box-sizing: border-box;cursor: pointer;}
 
 .panel li div{width:100%;background-color: rgb(255, 255, 255);border-radius: 10px;height: 200px;}
 .panel li div img{width: 102%;margin-top: 9px;}
@@ -74,13 +73,325 @@ nav li img {width: 70%;display:block;margin:0 auto;margin-top: 15%;}
 .logo3 h4 {margin-top: -103px;margin-left: 57px;}
 
 .panel2 li img{height: 89px;display: block;margin-left: 10px;margin-top: 5px;}
-.panel2 li h3{text-align: center;line-height: 21px;}
+.panel2 li h3{text-align: center;line-height: 21px;cursor: pointer;}
 .ad, .ad2, .ad3{float: left;margin-right: 50px;}
 
 .ad3 li h3{margin-top: 0px;padding: 0px;}
 .ad3 li{margin-top: 5px;}
 
+.outmain{
+        width: 100%;
+        height:80vh;
+        background-color: rgb(231, 227, 227);
+        border-radius: 10px;
+        padding: 10px 0;
+        position: relative;
+        z-index: -1;
+        margin-top: 10px;
+
+}
+ .row{
+         width:100%;
+         height:75vh;
+         
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         
+ }
+ .col1{
+         flex-basis: 35%;
+         
+         margin-left: 15px;
+         text-transform: capitalize;
+         font-size: 24px;
+ }
+ .col1 button{
+         width: 300px;
+         height: 40px;
+         border-radius: 20px;
+         background-color:#0272ab;
+ }
+ .col1 button p{
+      display: inline;
+      font-size: 20px;
+      font-weight: 700;
+      color: white;
+}
+.col1 button i{
+        margin-left: 10px;
+        font-size: 20px;
+        color: white;
+
+}
+
+ .col2{
+         flex-basis: 65%;
+         
+ }
+ .strap1{
+         width: 90%;
+         height: 120px;
+         
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+       
+ }
+ .strap1 ul li{
+        float: left;
+        margin: 0 66px ;
+         
+ }
+ .strap1 ul li img{
+         height: 80px;
+         border-radius: 50%;
+ }
+ .strap2{ width: 90%;
+        height: 140px;
+        
+        display: flex;
+         justify-content: space-around;
+         align-items: center;
+         
+      
+
+ }
+ 
+ .strap2 ul li{
+        float: left;
+        margin: 0 47px ;
+         
+ }
+ .strap2 ul li:nth-child(even) img{
+         height: 200px;
+         border-radius: 0;
+         position: relative;
+         top: 0;
+         z-index: -1;
+         box-shadow: 7px 5px 15px rgb(170, 170, 170);
+ }
+ .strap2 ul li:nth-child(odd){
+        
+        position: relative;
+        top: 54px;
+}
+ .strap2 ul li img{
+         height: 80px;
+         border-radius: 50%;
+ }
+ .strap3{
+        width: 90%;
+        height: 120px;
+        
+        display: flex;
+         justify-content: space-around;
+         align-items: center;
+ }
+
+ .strap3 ul li{
+        float: left;
+        margin: 0 66px ;
+         
+ }
+ .strap3 ul li img{
+         height: 80px;
+         border-radius: 50%;
+ }
+
+ 
 
 
+ .ministrip{
+         width: 100%;
+         height: 47vh;
+ }
+
+ .ministrip2{
+        width: 100%;
+        height: 40vh;
+ }
+
+ /* ////////footer/////// */
+ 
+ .footernew{
+        width: 100%;
+        height:29vh;
+        background-color:#0272ab;
+        padding: 5px;
+}
+
+.row2{
+        width: 100%;
+        height: 24vh;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+}
+.rec1{
+        flex-basis: 40%;
+        margin-left: 15px;
+       
+        
+}
+.rec1 h2{
+        color: white;
+}
+
+.rec1 input{
+        width: 250px;
+        height: 25px;
+        border-radius: 20px 0 0 20px;
+        padding-left: 12px;
+}
+.rec1 button{
+        width: 57px;
+        height: 31px;
+        border-radius: 0px 20px 20px 0px;
+        position: relative;
+        left: -6px;
+        background-color: green;
+        color: white;
+
+}
+.rec2{
+        flex-basis: 60%;
+        
+}
+.rec2 h1{
+        font-size: 34px;
+        text-align: center;
+        color: white;
+}
+.strip1{
+        height: 52px;
+        color: white;
+     
+}
+
+.strip1 h4{
+        text-align: center;
+        text-transform: capitalize;
+        
+}
+
+.strip1 ul li{
+        float: left;
+        margin-left: 46px;
+        margin-top: -15px;
+        cursor: pointer;
+        text-transform: capitalize;
+}
+
+.strip2 h4{
+        text-align: center;
+        text-transform: capitalize;
+
+}
+.strip2{
+        height: 52px;
+        color: white;
+        margin-top: -10px;
+}
+.strip2 ul{
+        margin-left:195px;
+}
+.strip2 ul li{
+        float: left;
+        margin-left: 46px;
+        margin-top: -15px;
+        cursor: pointer;
+}
 
 
+/* /////alertbox//////// */
+
+.alert{
+        height: 300px;
+        width: 420px;
+        background-color: rgba(37, 37, 37,0.9);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 3px;
+       opacity: 0;
+       transition: 0.7s ease;
+      
+        
+}
+.alert.active{
+        opacity: 100%;
+       
+}
+
+
+span{
+        float: right;
+        color: white;
+        cursor: pointer;
+}
+.row3{
+        height:186px;
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+.sec1{
+        flex-basis: 30%;
+      
+       font-size: 122px;
+       padding-left: 10px;
+       color: yellowgreen;
+}
+.sec2{
+        flex-basis:70% ;
+        
+        padding: 0 5px;
+        margin-right: 4px;
+        
+}
+.sec2 label{
+        font-size: 18px;
+        color: white;
+}
+.sec2 input{
+        border: 0;
+        border-bottom: 2px dashed rgb(255, 255, 255);
+        stroke-dasharray: 2;
+        stroke-width: 1;
+        background: none;
+        font-size: 24px;
+        width: 62%;
+        color: white;
+        
+        
+        
+}
+.alternate{
+        text-transform: capitalize;
+        text-align: center;
+        color: white;
+}
+.alternate p{
+        font-size: 20px;
+        cursor: pointer;
+}
+
+#ent{
+        width: 50%;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 30px;
+        background-color: greenyellow;
+        display: block;
+}
+       
+#not{
+        float: left;
+}
